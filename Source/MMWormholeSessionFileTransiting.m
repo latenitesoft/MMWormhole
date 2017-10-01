@@ -79,4 +79,25 @@
     return NO;
 }
 
+- (void)deleteContentForAllMessages { 
+    
+}
+
+
+- (void)deleteContentForIdentifier:(nullable NSString *)identifier {
+    
+}
+
+- (void)session:(nonnull WCSession *)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(nullable NSError *)error { 
+    
+}
+
+- (void)sessionDidBecomeInactive:(nonnull WCSession *)session { 
+    
+}
+
+- (void)sessionDidDeactivate:(nonnull WCSession *)session { 
+    
+}
+
 @end
